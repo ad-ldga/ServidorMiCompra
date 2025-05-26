@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Definir la ruta al archivo JSON
-const jsonFilePath = path.join(__dirname, '../ProductosActualizados.json');
+const jsonFilePath = path.join(__dirname, '../Productos.json');
 
 // Exportar una función handler que maneja la solicitud
 module.exports = (req, res) => {
